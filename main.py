@@ -11,7 +11,8 @@ left_weeks = left_years * 52
 
 left_days = left_years * 365
 
-print(f"You have {left_days} days, {left_weeks} weeks, and {left_months} months left.")
+message = f"You have {left_days} days, {left_weeks} weeks, and {left_months} months left."
+print(message)
 
 
 
